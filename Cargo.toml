@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+zbus.version = "3"
+zbus.default-features = false
+zbus.features = ["tokio"]
+tokio.version = "1"
+tokio.default-features = false
+tokio.features = ["full"]
